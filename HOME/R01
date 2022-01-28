@@ -1,0 +1,49 @@
+
+        Hello There </h1>
+        Basic syntax HTML
+        <Heading level 1</h1> = Highst lvl of heading
+        Heading level 6</h6> = lowest lvl of heading
+        Both will still be emboldend.
+        
+        To create paragraphs = <p>I really like using Markdown.</p>
+         *Note* Don't add indentations, it'll mess with formating. 
+        
+         Add a Line Break or <br> = <p>This is the first line.<br>
+        And this is the second line.</p>
+         *Note* You can allso add 2 spaces though it may make it harder to notice.
+         First line with two spaces after.  
+        And the next line.
+        
+        First line with the HTML tag after.<br>
+        And the next line.
+        
+        Bold = I just love <strong>bold text</strong>.
+        italicize = Italicized text is the <em>cat's meow</em>.
+        ++ = This text is <strong><em>really important</em></strong>.
+        
+        ORDERING LISTS= 
+        
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+        Do it with numbers =
+        <ul>
+            <li>1968. A great year!</li>
+            <li>I think 1969 was second best.</li>
+          </ul>
+        
+          Enclose links = [Duck Duck Go](https://duckduckgo.com)
+          Also do pics = ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+          LINK PICS=
+          [![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/
+          31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-
+          6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb
+          -cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+        
+        *NOTE* THIS REALLY ONLY WORKS IF YOU CAN GET IT TO YOUR COMPUTOR::: 
+        TO DO THAT YOU'LL DO=== LS- CD 'FOLDER' GIT CLONE
+        ***THEN FROM YOUR COMP*** GIT ADD . - GIT COMMIT -M "SAY SOMETHING ABOUT THE ADDITION" - GIT PUSH ORIGIN MAIN 
+        THIS MAKES THE SITE LIVE!
+ 

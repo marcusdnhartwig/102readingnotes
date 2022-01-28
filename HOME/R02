@@ -1,0 +1,19 @@
+You've got plenty of options when it comes to text editors. 
+ON my PC it's on my notepad.
+
+VS Code also hase on on it. and It's been quite helpful.
+
+command line, or terminal, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text.
+
+The command line typically presents you
+ with a prompt. As you type, it will be displayed after the prompt. Most of the time you will be
+ issuing commands. Here is an example:
+
+ It was quite had for me to properly download my app to actually work on this program.
+ In fact for the longest time my eyes could hardly look through the green that was all of the words. 
+
+pwd = Print Working Directory
+ls = [options] [location]
+ cd = [location]
+file= obtain information about what type of file a file or directory is.
+ls =a List the contents of a directory, including hidden files.

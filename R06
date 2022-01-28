@@ -1,0 +1,143 @@
+**JavaScript**
+JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+
+4 Ways to Declare a JavaScript Variable:
+Using var
+Using let
+Using const
+Using nothing
+
+What are Variables?
+Variables are containers for storing data (storing data values).
+
+In this example, x, y, and z, are variables, declared with the var keyword:
+
+Example
+var x = 5;
+var y = 6;
+var z = x + y;
+
+x, y, and z, are variables, declared with the let keyword:
+
+Example
+let x = 5;
+let y = 6;
+let z = x + y;
+
+x, y, and z, are undeclared variables:
+
+Example
+x = 5;
+y = 6;
+z = x + y;
+
+When to Use JavaScript var?
+Always declare JavaScript variables with var,let, orconst.
+
+The var keyword is used in all JavaScript code from 1995 to 2015.
+
+The let and const keywords were added to JavaScript in 2015.
+
+If you want your code to run in older browser, you must use var.
+
+When to Use JavaScript const?
+If you want a general rule: always declare variables with const.
+
+If you think the value of the variable can change, use let.
+
+Just Like Algebra
+Just like in algebra, variables hold values:
+
+let x = 5;
+let y = 6;
+Just like in algebra, variables are used in expressions:
+
+let z = x + y;
+
+Note
+Variables are containers for storing values.
+
+JavaScript Identifiers
+All JavaScript variables must be identified with unique names.
+
+These unique names are called identifiers.
+
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+
+The general rules for constructing names for variables (unique identifiers) are:
+
+Names can contain letters, digits, underscores, and dollar signs.
+Names must begin with a letter
+Names can also begin with $ and _ (but we will not use it in this tutorial)
+Names are case sensitive (y and Y are different variables)
+Reserved words (like JavaScript keywords) cannot be used as names
+Note
+JavaScript identifiers are case-sensitive.
+
+The Assignment Operator
+In JavaScript, the equal sign (=) is an "assignment" operator, not an "equal to" operator.
+
+Note
+The "equal to" operator is written like == in JavaScript.
+
+JavaScript Data Types
+JavaScript variables can hold numbers like 100 and text values like "John Doe".
+
+In programming, text values are called text strings.
+
+JavaScript can handle many types of data, but for now, just think of numbers and strings.
+
+Strings are written inside double or single quotes. Numbers are written without quotes.
+
+If you put a number in quotes, it will be treated as a text string.
+
+Example
+const pi = 3.14;
+let person = "John Doe";
+let answer = 'Yes I am!';
+
+Example
+<p id="demo"></p>
+
+<script>
+let carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script>
+Note
+It's a good programming practice to declare all variables at the beginning of a script.
+
+Value = undefined
+In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input.
+
+A variable declared without a value will have the value undefined.
+
+Note
+You cannot re-declare a variable declared with let or const.
+
+This will not work:
+
+let carName = "Volvo";
+let carName;
+
+JavaScript Arithmetic
+As with algebra, you can do arithmetic with JavaScript variables, using operators like = and +:
+
+Example
+let x = 5 + 2 + 3;
+You can also add strings, but strings will be concatenated:
+
+Example
+let x = "John" + " " + "Doe";
+Example
+let x = "5" + 2 + 3;
+Note
+If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+JavaScript Dollar Sign $
+Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names:
+
+Example
+let $ = "Hello World";
+let $$$ = 2;
+let $myMoney = 5;
+JavaScript Underscore (_)
+Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names:
